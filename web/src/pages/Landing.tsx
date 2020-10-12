@@ -24,7 +24,7 @@ export default function Landing() {
         </div>
 
         <Link to="/app" className="enter-app">
-          <FiArrowRight size={26} color="rgba(0,0,0,0.6)"/>
+          <FiArrowRight size={46} strokeWidth={2.5} className="arrow-icon"/>
         </Link>
         
       </div>

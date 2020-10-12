@@ -74,9 +74,17 @@
   align-items: center;
   justify-content: center;
 
-  transition: background-color 0.3s;
+  transition: background-color 0.2s;
 }
 
 .content-wrapper .enter-app:hover{
   background: #96FEFF;
+}
+
+.content-wrapper .enter-app .arrow-icon {
+  color: #8D734B;
+}
+
+.content-wrapper .enter-app:hover .arrow-icon {
+  color: #15C3D6;
 }
