@@ -31,7 +31,10 @@ export default function OrphanagesMap() {
         <aside>
 
           <header>
-            <img src={mapMarkerImg} alt="Happy"/>
+            
+            <Link to="/">
+                <img src={mapMarkerImg} alt="Happy"/>
+            </Link>
 
             <h2>Escolha um orfanato no mapa</h2>
             <p>Muitas crianças estão esperando a sua visita :)</p>
