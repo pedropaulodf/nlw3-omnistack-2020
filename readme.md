@@ -9,6 +9,9 @@ breve
 ### Resultado pessoal
 breve
 
+### Como usar o projeto (backend)
+Dentro da pasta "backend", crie uma pasta chamada "uploads" e dê um yarn install.
+
 ### Layout web responsivo
 breve
 
