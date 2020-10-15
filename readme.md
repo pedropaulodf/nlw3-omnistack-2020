@@ -15,4 +15,7 @@ Dentro da pasta "backend", crie uma pasta chamada "uploads" e dê um yarn instal
 ### Layout web responsivo
 breve
 
-:)
+### Preview do projeto Web
+
+
+<img src="readme-screens/web-screen.gif" >
