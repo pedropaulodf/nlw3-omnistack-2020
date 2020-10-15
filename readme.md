@@ -1,3 +1,5 @@
+<img src="readme-screens/web-screen.gif" >
+
 Projeto Happy, em desenvolvimento na Next Level Week #3
 
 ### Tecnologias usadas
@@ -14,8 +16,3 @@ Dentro da pasta "backend", crie uma pasta chamada "uploads" e dê um yarn instal
 
 ### Layout web responsivo
 breve
-
-### Preview do projeto Web
-
-
-<img src="readme-screens/web-screen.gif" >
