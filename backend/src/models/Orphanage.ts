@@ -33,6 +33,12 @@ export default class Orphanage {
   @Column()
   open_on_weekends: boolean;
 
+  @Column()
+  whatsapp: string;
+
+  @Column()
+  approved: boolean;
+
   // nao existe essa coluna no banco
   @OneToMany(() => Image, (image) => image.orphanage, {
     cascade: ["insert", "update"],
