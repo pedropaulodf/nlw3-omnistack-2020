@@ -1,6 +1,6 @@
 <img src="readme-screens/web-screen.gif" >
 
-# Projeto Happy, em desenvolvido na Next Level Week #3
+# Projeto Happy, desenvolvido na Next Level Week #3
 
 ### Tecnologias usadas
 Typescript, React.js, React Native, sqlite3, Typeorm, Expo, Express
