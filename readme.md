@@ -1,9 +1,9 @@
 <img src="readme-screens/web-screen.gif" >
 
-Projeto Happy, em desenvolvido na Next Level Week #3
+# Projeto Happy, em desenvolvido na Next Level Week #3
 
 ### Tecnologias usadas
-Typescript, React.js, React Native, sqlite3, Expo, Express
+Typescript, React.js, React Native, sqlite3, Typeorm, Expo, Express
 
 ### Projeto
 Foi desenvolvido uma plataforma para centralizar a busca de "orfanato" (Serviço de Acolhimento Institucional para Crianças e Adolescentes) em nossa própria cidade. A pessoa/organização pode cadastrar um "orfanato", onde vai aparacer no mapa geral da aplicação.
