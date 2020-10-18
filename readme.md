@@ -22,5 +22,21 @@ E nesse NLW, eu fui vendo ele programando e fui ENTENDENDO QUASE TUDO o que esta
 ### Como usar o projeto (backend)
 Dentro da pasta "backend", crie uma pasta chamada "uploads" e dê um yarn install.
 
+### Desafios que listei para implementar
+* Máscara no campo WhatsApp
+* Shimmer na tela de load de cadastro
+* Arrumar organização de upload de imagens no mobile
+* Botão de excluir foto do uploads
+* Estilo do switch do cadastro de orfanato
+* Desafios do Diego:
+ * Acesso restrito;
+ * Recuperação de senhas;
+ * Cadastro de orfanatos (Ter uma área de aprovação de cadastros);
+ * Onboarding do usuário (Web);
+ * Localização real do usuário;
+ * Cadastro em múltiplas etapas;
+ * Logout da aplicação;
+ * Deploy da aplicação (Migrar do sqlite para o PostgreSQL).
+
 ### Layout web responsivo
 Em breve colocarei aqui
