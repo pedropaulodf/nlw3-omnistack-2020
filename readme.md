@@ -38,5 +38,5 @@ Dentro da pasta "backend", crie uma pasta chamada "uploads" e dê um yarn instal
  * Logout da aplicação;
  * Deploy da aplicação (Migrar do sqlite para o PostgreSQL).
 
-### Layout web responsivo
-Em breve colocarei aqui
+### Layout web responsivo e mobile
+Em breve gravarei e postarei aqui, prometo
