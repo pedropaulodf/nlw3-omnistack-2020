@@ -12,7 +12,7 @@ Foi desenvolvido uma plataforma para centralizar a busca de "orfanato" (Serviço
 * Implementação do campo WhatsApp na Web e Mobile;
 * Implementação das telas de onboarding (Acho que fiz na gambiarra kkkk, vou pesquisar como melhorar);
 * Validação visual no formulário de cadastrar "orfanato";
-* Splash Screen no mobile;
+* Splash Screen no mobile com expo;
 
 ### O que aprendi
 Essa NLW foi diferente pra mim, por que foi o segundo que participei, o primeiro foi do projeto Proffy e, confesso, que na NLW02 minha mente explodiu. No mesmo período eu estava no meu primeiro Bootcamp de Fullstack estudando React, e fazia quase 2 meses bootcamp, e a NLW02 tirou muitas dúvidas minhas que surgiram lá no e eu fiquei perdido com tanta informação, mas também fiquei super feliz, por que, além de tirar minhas dúvidas, eles mostraram na prática a resolução delas, que algumas delas eram sobre: como navegar entre páginas, como conectar com um banco de dados sqlite e usar o localStorage do navegador/celular, como estilizar um app web e como CRIAR um app com React Native, dentre outros. Depois eu consegui até implementar o react-select no projeto web e native, que eram uma das sugestões do Diego.
@@ -22,7 +22,7 @@ E nesse NLW, eu fui vendo ele programando e fui ENTENDENDO QUASE TUDO o que esta
 ### Como usar o projeto (backend)
 Dentro da pasta "backend", crie uma pasta chamada "uploads" e dê um yarn install.
 
-### Desafios que listei para implementar
+### Desafios que ainda faltam implementar
 * Máscara no campo WhatsApp
 * Shimmer na tela de load de cadastro
 * Arrumar organização de upload de imagens no mobile
