@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ScrollView, View, StyleSheet, Switch, Text, TextInput, TouchableOpacity, Image } from 'react-native';
+import { ScrollView, View, StyleSheet, Switch, Text, TextInput, TouchableOpacity, Image, Alert } from 'react-native';
 import { Feather } from '@expo/vector-icons';
 import { RectButton } from 'react-native-gesture-handler';
 import { useNavigation, useRoute } from '@react-navigation/native';
@@ -71,7 +71,13 @@ export default function OrphanageData() {
     const {status} = await ImagePicker.requestCameraRollPermissionsAsync();
 
     if (status !== 'granted') {
-      alert('Eita! Precisamos do acesso às suas fotos, para poder postá-las. :D');
+      Alert.alert(
+        "Aviso",
+        "Eita! Precisamos do acesso às suas fotos, para poder postá-las.",
+        [
+          { text: "Entendi!", onPress: () => {} }
+        ]
+      );
       return;
     }
 
@@ -98,14 +104,14 @@ export default function OrphanageData() {
 
       <Text style={styles.label}>Nome</Text>
       <TextInput
-        style={styles.input}
+        style={name ? [styles.input, styles.inputValidationGood] : [styles.input, styles.inputValidationWrong]}
         value={name}
         onChangeText={setName}
       />
 
       <Text style={styles.label}>Sobre</Text>
       <TextInput
-        style={[styles.input, { height: 110 }]}
+        style={about ? [styles.input, styles.inputValidationGood, { height: 110 }] : [styles.input, styles.inputValidationWrong, { height: 110 }]}
         multiline
         value={about}
         onChangeText={setAbout}
@@ -113,8 +119,7 @@ export default function OrphanageData() {
 
       <Text style={styles.label}>Whatsapp</Text>
       <TextInput
-        style={styles.input}
-        multiline
+        style={whatsapp ? [styles.input, styles.inputValidationGood] : [styles.input, styles.inputValidationWrong]}
         value={whatsapp}
         onChangeText={setWhatsapp}
       />
@@ -141,7 +146,7 @@ export default function OrphanageData() {
 
       <Text style={styles.label}>Instruções</Text>
       <TextInput
-        style={[styles.input, { height: 110 }]}
+        style={instructions ? [styles.input, styles.inputValidationGood, { height: 110 }] : [styles.input, styles.inputValidationWrong, { height: 110 }]}
         multiline
         value={instructions}
         onChangeText={setInstructions}
@@ -149,7 +154,7 @@ export default function OrphanageData() {
 
       <Text style={styles.label}>Horario de visitas</Text>
       <TextInput
-        style={styles.input}
+        style={opening_hours ? [styles.input, styles.inputValidationGood] : [styles.input, styles.inputValidationWrong]}
         value={opening_hours}
         onChangeText={setOpenHours}
       />
@@ -207,6 +212,14 @@ const styles = StyleSheet.create({
     paddingHorizontal: 24,
     marginBottom: 16,
     textAlignVertical: 'top',
+  },
+
+  inputValidationWrong: {
+    borderColor: '#FFC3D8',
+  },
+
+  inputValidationGood: {
+    borderColor: '#A1E9C5',
   },
 
   uploadedImagesContainer: {
