@@ -29,14 +29,14 @@ Dentro da pasta "backend", crie uma pasta chamada "uploads" e dê um yarn instal
 * Botão de excluir foto do uploads
 * Estilo do switch do cadastro de orfanato
 * Desafios do Diego:
- * Acesso restrito;
- * Recuperação de senhas;
- * Cadastro de orfanatos (Ter uma área de aprovação de cadastros);
- * Onboarding do usuário (Web);
- * Localização real do usuário;
- * Cadastro em múltiplas etapas;
- * Logout da aplicação;
- * Deploy da aplicação (Migrar do sqlite para o PostgreSQL).
+  * Acesso restrito;
+  * Recuperação de senhas;
+  * Cadastro de orfanatos (Ter uma área de aprovação de cadastros);
+  * Onboarding do usuário (Web);
+  * Localização real do usuário;
+  * Cadastro em múltiplas etapas;
+  * Logout da aplicação;
+  * Deploy da aplicação (Migrar do sqlite para o PostgreSQL).
 
 ### Layout web responsivo e mobile
 Em breve gravarei e postarei aqui, prometo
