@@ -10,7 +10,7 @@ Foi desenvolvido uma plataforma para centralizar a busca de "orfanatos" (Serviç
 
 ### Desafios realizados
 * Implementação do campo WhatsApp na Web e Mobile;
-* Implementação das telas de onboarding (Acho que fiz na gambiarra kkkk, vou pesquisar como melhorar);
+* Implementação das telas de onboarding (Acho que fiz na gambiarra kkkk, vou pesquisar como melhorar [Corrigido, agora está funcionando do jeito certo]);
 * Validação visual no formulário de cadastrar "orfanato";
 * Splash Screen no mobile com expo;
 
