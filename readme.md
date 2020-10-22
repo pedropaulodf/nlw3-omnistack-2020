@@ -20,7 +20,7 @@ A NLW03 foi diferente para mim, por que foi o segundo que participei, o primeiro
 E nesse NLW, eu fui vendo ele programando e fui entendendo quase tudo o que estava acontecendo na tela, diferente da NLW02. Isso me motiva a tentar criar um App pessoal, que até estou desenhando no Figma!, coisa que eles nem ensinaram, mas de só de ver o layout deles, dá uma grande motivada de desenvolver essa skill nova. Também me motivou a tentar implementar o que faltou e os desafios propostos pelo Diego e, abaixo, segue o que consegui implementar:
 
 ### Como usar o projeto (backend)
-Dentro da pasta "backend", crie uma pasta chamada "uploads" e dê um yarn install.
+Dentro da pasta `"backend"`, crie uma pasta chamada `"uploads"` e dê um `yarn install`.
 
 ### Desafios que ainda faltam implementar
 * Máscara no campo WhatsApp
