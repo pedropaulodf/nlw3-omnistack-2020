@@ -40,8 +40,8 @@ const Simple = ({navigation}: any) => (
     controlStatusBar={false} 
     bottomBarColor=""
     bottomBarHighlight={0}
-    onDone={() => navigation.navigate('OrphanagesMap')}
-    onSkip={() => navigation.navigate('OrphanagesMap')}
+    onDone={() => navigation.navigate('LandingAnimated')}
+    onSkip={() => navigation.navigate('LandingAnimated')}
     nextLabel="Próximo"
     skipLabel="Pular"
     bottomBarHeight={50}
@@ -60,7 +60,7 @@ const Simple = ({navigation}: any) => (
           color: '#0089A5',
           textAlign: 'left',
           fontSize: 45,
-          lineHeight: 45,
+          lineHeight: 50,
           marginBottom: 0,
         },
         subTitleStyles: {
@@ -68,7 +68,7 @@ const Simple = ({navigation}: any) => (
           color: '#5C8599',
           textAlign: 'left',
           fontSize: 20,
-          lineHeight: 20,
+          lineHeight: 21,
           marginTop: -10,
         }
       },
@@ -82,7 +82,7 @@ const Simple = ({navigation}: any) => (
           color: '#0089A5',
           textAlign: 'right',
           fontSize: 30,
-          lineHeight: 30,
+          lineHeight: 35,
           marginBottom: -30,
           marginTop: 10,
         }

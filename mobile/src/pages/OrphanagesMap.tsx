@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Dimensions, StyleSheet, Text, TouchableOpacity, View } from "react-native";
+import { AsyncStorage, Dimensions, StyleSheet, Text, TouchableOpacity, View } from "react-native";
 import MapView, { Marker, Callout, PROVIDER_GOOGLE } from "react-native-maps";
 import { Feather } from '@expo/vector-icons';
 
@@ -21,6 +21,23 @@ export default function OrphanagesMap() {
 
   const [orphanages, setOrphanages] = useState<OrphanageItem[]>([]);
 
+  const checkHasClickedOnInstructions = async () => {
+
+    const item = await AsyncStorage.getItem('hasClickedOnInstructions');
+
+    AsyncStorage.removeItem('hasClickedOnInstructions');
+
+    // if (item !== null) {
+    //   navigation.navigate('SelectMapPosition');
+    // } else {
+      
+    //   await AsyncStorage.setItem('hasClickedOnInstructions', JSON.stringify({
+    //     hasClickedOnInstructions: true,
+    //   }));
+      navigation.navigate('InstructionsClickMap');
+    // }
+  }
+
   useEffect(() => {
     api.get('/orphanages').then(response => {
       setOrphanages(response.data);
@@ -32,7 +49,8 @@ export default function OrphanagesMap() {
   }
 
   function handleNavigateToOrphanage(){
-    navigation.navigate('SelectMapPosition');
+    // navigation.navigate('InstructionsClickMap');
+    checkHasClickedOnInstructions();
   }
 
   return (

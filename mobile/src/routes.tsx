@@ -8,6 +8,8 @@ import OrphanageData from "./pages/CreateOrphanage/OrphanageData";
 import SelectMapPosition from "./pages/CreateOrphanage/SelectMapPosition";
 import Header from "./components/Header";
 import OnboardPage from "./pages/OnboardPage";
+import LandingAnimated from "./pages/LandingAnimated";
+import InstructionsClickMap from "./pages/InstructionsClickMap";
 
 const { Navigator, Screen } = createStackNavigator();
 
@@ -26,8 +28,18 @@ export default function Routes() {
         />
 
         <Screen 
+          name="LandingAnimated" 
+          component={LandingAnimated}
+        />
+
+        <Screen 
           name="OrphanagesMap" 
           component={OrphanagesMap}
+        />
+
+        <Screen 
+          name="InstructionsClickMap" 
+          component={InstructionsClickMap}
         />
 
         <Screen 
