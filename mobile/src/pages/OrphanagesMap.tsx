@@ -27,15 +27,15 @@ export default function OrphanagesMap() {
 
     AsyncStorage.removeItem('hasClickedOnInstructions');
 
-    if (item !== null) {
-      navigation.navigate('SelectMapPosition');
-    } else {
+    // if (item !== null) {
+    //   navigation.navigate('SelectMapPosition');
+    // } else {
       
-      await AsyncStorage.setItem('hasClickedOnInstructions', JSON.stringify({
-        hasClickedOnInstructions: true,
-      }));
+    //   await AsyncStorage.setItem('hasClickedOnInstructions', JSON.stringify({
+    //     hasClickedOnInstructions: true,
+    //   }));
       navigation.navigate('InstructionsClickMap');
-    }
+    // }
   }
 
   useEffect(() => {
