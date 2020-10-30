@@ -23,7 +23,8 @@ E nesse NLW, eu fui vendo ele programando e fui entendendo quase tudo o que esta
 Dentro da pasta `"backend"`, crie uma pasta chamada `"uploads"` e dê um `yarn install`, depois dê um `yarn dev` para iniciar o server.
 
 ### Desafios que ainda faltam implementar
-* Máscara no campo WhatsApp
+* Máscara no campo WhatsApp (Web/Mobile)
+* Responsividade do projeto Web
 * Shimmer na tela de load de cadastro
 * Arrumar organização de upload de imagens no mobile :white_check_mark:
 * Botão de excluir foto do uploads :white_check_mark:
