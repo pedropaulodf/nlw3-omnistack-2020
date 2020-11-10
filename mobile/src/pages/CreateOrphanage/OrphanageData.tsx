@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from 'react';
-import { ScrollView, View, StyleSheet, Switch, Text, TextInput, TouchableOpacity, Image, Alert, Dimensions } from 'react-native';
+import React, {useState } from 'react';
+import { ScrollView, View, StyleSheet, Switch, Text, TextInput, TouchableOpacity, Image, Alert } from 'react-native';
 import { Feather } from '@expo/vector-icons';
 import { RectButton } from 'react-native-gesture-handler';
 import { useNavigation, useRoute } from '@react-navigation/native';
@@ -7,8 +7,6 @@ import * as ImagePicker from 'expo-image-picker';
 import api from '../../services/api';
 
 import { LinearGradient } from 'expo-linear-gradient';
-
-import earthImg from '../../images/onb-earth.png';
 
 interface OrphanageDataRouteParams {
   position: {

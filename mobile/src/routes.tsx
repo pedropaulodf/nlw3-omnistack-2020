@@ -6,6 +6,8 @@ import OrphanagesMap from "./pages/OrphanagesMap";
 import OrphanagesDetails from "./pages/OrphanageDetails";
 import OrphanageData from "./pages/CreateOrphanage/OrphanageData";
 import SelectMapPosition from "./pages/CreateOrphanage/SelectMapPosition";
+import FormSuccessPage from "./pages/CreateOrphanage/FormSuccessPage";
+import FormCancelPage from "./pages/CreateOrphanage/FormCancelPage";
 import Header from "./components/Header";
 import OnboardPage from "./pages/OnboardPage";
 import LandingAnimated from "./pages/LandingAnimated";
@@ -37,6 +39,16 @@ export default function Routes() {
           component={OrphanagesMap}
         />
 
+        <Screen 
+          name="FormCancelPage" 
+          component={FormCancelPage}
+        />
+
+        <Screen 
+          name="FormSuccessPage" 
+          component={FormSuccessPage}
+        />
+        
         <Screen 
           name="InstructionsClickMap" 
           component={InstructionsClickMap}
