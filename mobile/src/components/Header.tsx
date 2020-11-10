@@ -14,8 +14,8 @@ export default function Header({title, showCancel = true}: HeaderProps) {
 
   const navigation = useNavigation();
 
-  function hanleGoBackToHomepage(){
-    navigation.navigate('OrphanagesMap');
+  function hanleGoBack(){
+    navigation.navigate('FormCancelPage');
   }
 
   return (
@@ -27,7 +27,7 @@ export default function Header({title, showCancel = true}: HeaderProps) {
       <Text style={styles.title}>{title}</Text>
 
       {showCancel ? (
-        <BorderlessButton onPress={hanleGoBackToHomepage}>
+        <BorderlessButton onPress={hanleGoBack}>
           <Feather name="x" size={24} color="#ff669d" />
         </BorderlessButton>
       ) : (
