@@ -26,7 +26,10 @@
     },
     "android": {
       "package": "com.pedropaulodf.happy",
-      "versionCode": 1
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "backgroundColor": "#15C3D6"
+      }
     }
   }
 }
