@@ -40,4 +40,4 @@ Dentro da pasta `"backend"`, crie uma pasta chamada `"uploads"` e dê um `yarn i
   * Deploy da aplicação (Migrar do sqlite para o PostgreSQL).
 
 ### Layout web responsivo e mobile
-Em breve gravarei e postarei aqui, prometo
+Em breve gravarei e postarei aqui.
